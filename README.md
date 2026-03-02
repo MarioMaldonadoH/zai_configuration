@@ -45,9 +45,11 @@ glm
 
 ## Obtener API Key
 
-1. Ve a https://open.bigmodel.cn/
-2. Crea una cuenta
-3. Genera tu API Key
+Suscribete a GLM Coding Plan con soporte para Claude Code, Cline y 20+ herramientas de coding:
+
+| Plan | Precio | Link |
+| :--- | :--- | :--- |
+| **GLM Coding Plan** | Desde $10/mes | [Suscribirse](https://z.ai/subscribe?ic=QOSLP0DEGW) |
 
 ## Licencia
 
