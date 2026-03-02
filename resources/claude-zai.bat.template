@@ -1,0 +1,26 @@
+@echo off
+REM ================================================================
+REM Claude Code - Launch in Current Directory (Z.ai Model Mapping)
+REM ================================================================
+
+REM Configure Z.ai environment variables
+set ANTHROPIC_BASE_URL=https://api.z.ai/api/anthropic
+set ANTHROPIC_AUTH_TOKEN={{API_KEY}}
+set API_TIMEOUT_MS=3000000
+set ANTHROPIC_DEFAULT_OPUS_MODEL=glm-5
+set ANTHROPIC_DEFAULT_SONNET_MODEL=glm-4.7
+set ANTHROPIC_DEFAULT_HAIKU_MODEL=glm-4.7-flash
+
+REM Add Node.js to PATH if it's not already there
+set "PATH=%PATH%;C:\Program Files\nodejs\"
+
+echo.
+echo ================================================
+echo   Claude Code - Z.ai GLM Configuration
+echo ================================================
+echo.
+echo Starting Claude Code via Z.ai API...
+echo Models: GLM-5 (Opus), GLM-4.7 (Sonnet/Haiku)
+echo.
+
+npx @anthropic-ai/claude-code
